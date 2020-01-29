@@ -1,0 +1,249 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-size: 17px;
+}
+
+li {
+    float: right;
+    font-size: 17px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+li a:hover {
+    background-color: #808080;
+    color: white;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    opacity:0.6;
+}
+
+.dropdown {
+    float: right;
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 15px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.dropdown a:hover {opacity:0.6;}
+.dropdown-content a:hover {opacity:0.6;}
+.btn {
+
+    border-width: 1px;
+    border-style: solid;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#cancelTicket{
+    background-color: black ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    font-size:15px;
+}
+
+#cancelTicket:hover {
+    opacity: 0.7;
+}
+
+#buyReserve{
+    background-color: black ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 12%;
+    font-size:15px;
+}
+
+#buyReserve:hover {
+    opacity: 0.7;
+}
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+}
+.show {display: block;}
+
+#form1 {
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 5px;
+    border: 2px solid black;
+    width : 40%;
+
+}
+#formregistration {
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    width : 40%;
+
+}
+
+#submit {
+    background-color: black ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    font-size:15px;
+}
+.goBackButton{
+    background-color: black ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    font-size:15px;
+}
+.goBackButton:hover{
+    opacity: 0.7;
+}
+
+#submit:hover{
+    opacity: 0.7;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+#cancel{
+    background-color: black ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    font-size:15px;
+}
+.feedback {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.error {color: #FF0000;}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+input[type=password]{
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+input[type=email] {
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+h1, h2{
+    font-family: times new roman;
+}
+
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+.required:after {
+    content:" *";
+    color: red;
+}
